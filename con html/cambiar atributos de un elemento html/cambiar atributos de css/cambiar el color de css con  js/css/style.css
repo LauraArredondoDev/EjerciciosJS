@@ -1,0 +1,35 @@
+#box-svg {
+    display: flex;
+    justify-content: center;
+
+    svg {
+        color: red
+    }
+}
+
+#btns {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+    button {
+        height: 35px;
+        width: 75px;
+        cursor: pointer;
+        border: none;
+    }
+
+    button:nth-child(1) {
+        background-color: red;
+    }
+
+    button:nth-child(2) {
+        background-color: blue;
+    }
+    
+    button:nth-child(3) {
+        background-color: green;
+    }
+    
+}
+
