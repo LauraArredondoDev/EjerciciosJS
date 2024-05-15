@@ -11,24 +11,24 @@ const notaDelAlumno = 7.5;
 //-si el alumno saca mas de un 8 y hasta un 10, se escriba por consola "sobresaliente"
 
 if (notaDelAlumno >= 0 && notaDelAlumno < 5) {
+
+  console.log('Suspenso');
   
-    console.log('Suspenso');
-    
-  } else if (notaDelAlumno >= 5 && notaDelAlumno <= 7) {
-    
-    console.log('Aprobado');
-    
-  } else if (notaDelAlumno > 7 && notaDelAlumno <= 8) {
-    
-    console.log('Notable');
-    
-  } else if (notaDelAlumno > 8 && notaDelAlumno <= 10) {
-    
-    console.log('Sobresaliente');
-    
-  } else {
-    console.log('Luisa hija, las notas van del 0-10, importancia a lo importante');
-  }
+} else if (notaDelAlumno >= 5 && notaDelAlumno <= 7) {
+  
+  console.log('Aprobado');
+  
+} else if (notaDelAlumno > 7 && notaDelAlumno <= 8) {
+  
+  console.log('Notable');
+  
+} else if (notaDelAlumno > 8 && notaDelAlumno <= 10) {
+  
+  console.log('Sobresaliente');
+  
+} else {
+  console.log('Luisa hija, las notas van del 0-10, importancia a lo importante');
+}
 
 //----------OPTIMIZACIÓN------------------------------------------------------------
 
