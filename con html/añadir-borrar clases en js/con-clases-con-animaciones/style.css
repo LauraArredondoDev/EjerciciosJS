@@ -1,0 +1,64 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+nav {
+    background-color: darkcyan;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+
+    button {
+        background-color: transparent;
+        border: none;
+    }
+    
+    i {
+        margin-right: 35px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    
+}
+
+#nav-lat {
+    width: 200px;
+    height: 100%;
+    background-color: burlywood;
+    position: absolute;
+    margin-left: -200px;
+}
+
+#nav-lat.nav-lat-oculta {
+    animation: .3s ease ocultar-barra;
+    margin-left: -200px;
+}
+
+#nav-lat.nav-lat-visible {
+    animation: .3s ease mostrar-barra;
+    margin-left: 0px;
+}
+
+@keyframes mostrar-barra {
+    0% {
+        margin-left: -200px;
+    }
+    
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@keyframes ocultar-barra {
+    0% {
+        margin-left: 0px;
+    }
+    
+    100% {
+        margin-left: -200px;
+    }
+}
