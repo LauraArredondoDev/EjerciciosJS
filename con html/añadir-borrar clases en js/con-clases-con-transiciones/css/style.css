@@ -30,35 +30,13 @@ nav {
     height: 100%;
     background-color: burlywood;
     position: absolute;
+    transition: all .3s;
+}
+
+.nav-lat-oculta {
     margin-left: -200px;
 }
 
-#nav-lat.nav-lat-oculta {
-    animation: .3s ease ocultar-barra;
-    margin-left: -200px;
-}
-
-#nav-lat.nav-lat-visible {
-    animation: .3s ease mostrar-barra;
+.nav-lat-visible {
     margin-left: 0px;
-}
-
-@keyframes mostrar-barra {
-    0% {
-        margin-left: -200px;
-    }
-    
-    100% {
-        margin-left: 0px;
-    }
-}
-
-@keyframes ocultar-barra {
-    0% {
-        margin-left: 0px;
-    }
-    
-    100% {
-        margin-left: -200px;
-    }
 }

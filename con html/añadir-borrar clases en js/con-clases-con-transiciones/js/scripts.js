@@ -13,5 +13,5 @@ function mostrarOcultarBarra() {
     } else {
         barraLat.classList.remove('nav-lat-visible');
         barraLat.classList.add('nav-lat-oculta');
-      }
+    }
 }
