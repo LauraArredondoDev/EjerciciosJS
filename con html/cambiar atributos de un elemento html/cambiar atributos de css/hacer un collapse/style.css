@@ -1,0 +1,9 @@
+div {
+    width: 20%;
+    height: 35px;
+    border: 2px solid coral;
+}
+
+p {
+    display: none;
+}
