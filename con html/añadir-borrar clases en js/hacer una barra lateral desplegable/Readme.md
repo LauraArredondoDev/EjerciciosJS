@@ -17,7 +17,7 @@ const elemento = document.getElementById('id-elemento');
 elemento.classList
 ```
 
-despues de esto, ya podrás usar los métodos que hay para trabajar con las clases, tales como "add()", "remove()" o "contains()"
+despues de esto, ya podrás usar las funciones que hay para trabajar con las clases, tales como "add()", "remove()" o "contains()"
 
 ```javascript
 const elemento = document.getElementById('id-elemento');
@@ -26,14 +26,14 @@ elemento.classList.add('clase-que-quiero-añadir');
 
 ### Pista 2
 
-Se puede saber si un elemento ya tiene una clase concreta utilizando el método "contains()" (a este método hay que pasarle el nombre de la clase que se quiere comprobar).
+Se puede saber si un elemento ya tiene una clase concreta utilizando la función "contains()" (a esta función hay que pasarle el nombre de la clase que se quiere comprobar).
 
 ```javascript
 const elemento = document.getElementById('id-elemento');
 elemento.classList.contains('clase-que-quiero-comprobar');
 ```
 
-Este método devuelve un true si el elemento contiene la clase que se está comprobando y un false si no la tiene, por lo que se puede utilizar como condición en un if
+Esta función devuelve un true si el elemento contiene la clase que se está comprobando y un false si no la tiene, por lo que se puede utilizar como condición en un if
 
 ```javascript
 const elemento = document.getElementById('id-elemento');

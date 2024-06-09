@@ -11,11 +11,6 @@ function cambiarClase(clase) {
 
         boton.classList.remove('boton-redondo'); //se borra la clase contraria
         boton.classList.add(clase); //se le añade la nueva clase
-
-    } else { //si el boton no tiene ninguna de las dos clases
-
-        boton.classList.add(clase);
-
     }
     
 }
