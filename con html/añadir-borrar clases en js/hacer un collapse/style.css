@@ -1,0 +1,22 @@
+#contenedor {
+    width: 20%;
+    border: 2px solid coral;
+    overflow: hidden; /*Para que lo que se salga del contenedor no se vea*/
+    transition: all 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    div {
+        margin-top: 10px;
+    }
+}
+
+.expandir {
+    height: 200px;
+}
+
+.colapsar {
+    height: 50px;
+}
