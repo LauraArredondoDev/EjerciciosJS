@@ -1,6 +1,17 @@
+#contenedor-principal{
+    border: 2px solid cadetblue;
+
+    div:first-child {
+        cursor: pointer;
+    }
+
+    div:first-child:hover {
+        background-color: rgb(204, 204, 204);
+    }
+}
+
 #contenedor {
     width: 20%;
-    border: 2px solid coral;
     overflow: hidden; /*Para que lo que se salga del contenedor no se vea*/
     transition: all 1s;
     display: flex;
@@ -18,5 +29,15 @@
 }
 
 .colapsar {
-    height: 50px;
+    height: 0px;
+}
+
+.rotar-arriba {
+    transform: rotate(180deg);
+    transition: all 1s;
+}
+
+.rotar-abajo {
+    transform: rotate(0deg);
+    transition: all 1s;
 }
