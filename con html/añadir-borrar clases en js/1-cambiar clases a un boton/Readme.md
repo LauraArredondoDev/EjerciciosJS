@@ -66,6 +66,7 @@ if(elemento.classList.contains('clase-que-quiero-comprobar')) { //Si el elemento
     Para ello se debe:
 
     * Obtener el botón del DOM y guardarlo en una constante
+    
     * Comprobar si el boton no tiene ya la clase que se le está intentando añadir, si no tiene la clase, se le añade, pero previamente se debe borrar la clase contraria. Por ejemplo si al botón se le quiere añadir la clase "boton-redondo" primero se comprueba si no tiene esta clase y si no la tiene, se le borra la clase contraria, es decir, la clase "boton-cuadrado" y posteriormente se le añade la clase que se le quería añadir, que es la clase "boton-redondo"
 
     ```javascript
@@ -95,6 +96,6 @@ if(elemento.classList.contains('clase-que-quiero-comprobar')) { //Si el elemento
 
 ```html
 <button onclick="cambiarClase('boton-redondo')">Círculo</button>
-        <button onclick="cambiarClase('boton-cuadrado')">Cuadrado</button>
+<button onclick="cambiarClase('boton-cuadrado')">Cuadrado</button>
 ```
      
