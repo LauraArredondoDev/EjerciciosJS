@@ -122,6 +122,19 @@ if ( mayorEdad && tieneDinero) {
 
 //Sumar todos los Elementos de un Array: Escribe una función que reciba un array de números y retorne la suma de todos sus elementos.
 
+function sumarElementos (array) {
+  let suma = 0;
+  
+  for (const numero of array) {
+    suma += numero;
+  }
+  
+  return suma;
+}
+
+const resultado = sumarElementos([5, 18, 25, 3, 9, 11]);
+console.log(resultado);
+
 
 
 
