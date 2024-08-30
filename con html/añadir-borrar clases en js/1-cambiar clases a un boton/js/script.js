@@ -14,3 +14,27 @@ function cambiarClase(clase) {
     }
     
 }
+
+//---------------------------------------Otra manera de hacerlo-----------------------------------------
+
+// function borrarClases(btn) {
+//     btn.classList.remove('btn-circulo');
+//     btn.classList.remove('btn-cuadrado');
+// }
+
+// function cambiarClaseCirculo() {
+//     const btnCambiaFormaCirculo = document.getElementById('btn-cambia');
+
+//     borrarClases(btnCambiaFormaCirculo);
+
+//     btnCambiaFormaCirculo.classList.add('btn-circulo');
+
+// }
+
+// function btnCambiaClaseCuadrado() {
+//     const btnCambiaFormaCuadrado = document.getElementById('btn-cambia');
+
+//     borrarClases(btnCambiaFormaCuadrado);
+
+//     btnCambiaFormaCuadrado.classList.add('btn-cuadrado');
+// }
