@@ -1,10 +1,14 @@
 let cantidad = document.getElementById('cantidad');
 let boton = document.getElementById('generar');
 let contrasena = document.getElementById('contrasena');
+const contrasenaFuerte = document.getElementById('contrasena__fuerte');
+const contrasenaDebil = document.getElementById('contrasena__debil');
 
 const cadenaCaracteres = 'ABCDEFGHIJKLMNOPQRSTUVWYZabcdefghijklmnopqrstuvwyz0123456789!@#$%^&*()';
 
 function generar() {
+    contrasenaFuerte.style.display = 'none';
+    contrasenaDebil.style.display = 'none';
     
     let numeroDigitado = parseInt(cantidad.value);
 
@@ -34,20 +38,21 @@ function generar() {
 
     //Validar la fortaleza de la contraseña
     if(tieneMayusculas && tieneMinusculas && tieneNumeros && tieneSimbolos) {
-        alert('La contraseña es fuerte.');
-
+        contrasenaFuerte.style.display = 'block';
     }else {
-        alert('La contraseña es débil. Asegúrate de incluir al menos una mayúscula, un número y un símbolo.');
+        contrasenaDebil.style.display = 'block';
     }
 }  
 
 //1- Guardarme el boton de limpiar en una const o variable
-//2- Hacer una función que diga que cuando pulse el botón lo que hay dentro del input de la contraseña se borre
+//2- Hacer una función que cambie el value del input.
 
 const botonLimpiar = document.getElementById('limpiar');
 
 function limpiar() {
     contrasena.value = '';
+    contrasenaFuerte.style.display = 'none';
+    contrasenaDebil.style.display = 'none';
 }
 
 
