@@ -21,8 +21,9 @@ for (let i = 1; i <= 100; i++) {
     
   } else if(i % 5 === 0) {
     console.log(i + ' buzz\n');
+
+  } else {
+    console.log(i);
   }
 
-  
-  
 }
