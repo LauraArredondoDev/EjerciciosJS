@@ -5,7 +5,7 @@
  *   lo resuelvan directamente.
 */
 
-/*Lógica para resolverel ejercicio: 
+/*Lógica para resolver el ejercicio: 
     1 - separar la frase en una lista de palabras con la función split() y utilizando el espacio que hay entre cada palabra como separador.
     2 - crear una variable llamada fraseEnMayusculas donde voy a ir guardando las palabras con la primera letra en mayúscula y separadas
         por un espacio
