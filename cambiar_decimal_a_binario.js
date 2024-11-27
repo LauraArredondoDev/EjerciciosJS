@@ -38,3 +38,4 @@ console.log(cambiarDeDecimalABinario(10));
 console.log(cambiarDeDecimalABinario(0));
 console.log(cambiarDeDecimalABinario(255));
 console.log(cambiarDeDecimalABinario(-56));
+console.log(cambiarDeDecimalABinario(5));
